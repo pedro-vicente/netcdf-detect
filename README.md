@@ -27,10 +27,16 @@ access, and sharing of array-oriented scientific data.
 Building from source
 ------------
 
-Install dependency packages (Ubuntu):
+Install dependency packages: Debian-based systems (like Ubuntu)
 <pre>
 sudo apt-get install build-essential
 sudo apt-get install libnetcdf-dev netcdf-bin netcdf-doc
+</pre>
+
+Install dependency packages: For RPM-based systems (like Fedora and CentOS)
+<pre>
+yum install zlib-devel
+yum install netcdf netcdf-devel
 </pre>
 
 Get source:
